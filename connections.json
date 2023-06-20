@@ -1,0 +1,8 @@
+{
+      "ch": {
+            "conn_type": "postgres",
+            "login": "default",
+            "host": "clickhouse",
+            "port": 9000
+      }
+}
