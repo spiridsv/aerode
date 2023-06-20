@@ -1,0 +1,7 @@
+{
+  "CH_SETTINGS": {
+    "STG_DB_TN": "NHL_STG.STATSAPI_JSON",
+    "ODS_DB_TN": "NHL_ODS.STATSAPI_JSON",
+    "API_ID": 21
+  }
+}
