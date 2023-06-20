@@ -2,8 +2,13 @@
 
 ## Task
 
-Extract data from [https://statsapi.web.nhl.com/api/v1/teams/21/stats]("https://statsapi.web.nhl.com/api/v1/teams/21/stats")
+Extract data from [https://statsapi.web.nhl.com/api/v1/teams/21/stats](https://statsapi.web.nhl.com/api/v1/teams/21/stats)
 and Load to Clickhouse w/o Transform.
+
+## How it works
+
+E & L implemented through Operator [plugins/aerode_op.py](plugins/aerode_op.py])
+with Staging and Operational DS Layers (increment insertion).
 
 ## deploy compose
 
